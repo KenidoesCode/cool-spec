@@ -1,0 +1,25 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+# cool-spec is documents only. CI verifies that the authoritative JSON Schema
+# accepts/rejects every committed example exactly as the manifest declares.
+jobs:
+  validate-examples:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Install validation tool (ajv)
+        working-directory: .ci
+        run: npm install
+
+      - name: Validate examples against receipt.schema.json
+        run: node .ci/validate-examples.mjs

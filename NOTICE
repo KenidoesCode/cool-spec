@@ -1,0 +1,13 @@
+CooL (Cryptographic Observability and On-chain Ledger)
+Copyright 2026 NorthWind Cipher Pvt Ltd
+
+This product includes software developed at NorthWind Cipher Pvt Ltd.
+
+Licensed under the Apache License, Version 2.0. See the LICENSE file.
+
+CooL produces and verifies evidentiary records of what an AI system computed
+(which model, on which input, producing which output, and when) and proves that
+such records are unforged. It does NOT prove that any output is correct, fair,
+unbiased, safe, or policy-compliant. See cool-spec/STATUS.md for the honest,
+per-domain implementation status (TEE attestation is mocked and on-chain
+anchoring is not present in v0.1.0).

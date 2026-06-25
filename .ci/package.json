@@ -1,0 +1,10 @@
+{
+  "name": "cool-spec-ci",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "description": "CI-only schema validation tooling for cool-spec. Not part of the CooL standard and not published.",
+  "dependencies": {
+    "ajv": "8.20.0"
+  }
+}
