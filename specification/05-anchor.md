@@ -7,7 +7,7 @@
 > **What this proves:** Nothing yet. When fully built, on-chain anchoring would provide independent timestamping and immutability for the transparency log's state by publishing it to a public chain not controlled by the operator. In v0.1.0 it provides nothing — there is no anchor.
 > **What this does NOT prove:** Even when built, anchoring would not prove that any output is correct, fair, unbiased, safe, or policy-compliant. It would only provide an independent, hard-to-rewrite timestamp for the log's *state*.
 
-*An open standard by NorthWind Cipher Pvt Ltd.*
+*An open standard by NorthWind Cipher (in incorporation).*
 
 ---
 

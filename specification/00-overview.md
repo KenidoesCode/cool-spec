@@ -3,7 +3,7 @@
 > **What this proves:** The specification set defines how a CooL receipt records *what was computed* (which model, input, output, and time) and how a verifier checks, offline, that the record was not forged or altered.
 > **What this does NOT prove:** Nothing in this specification establishes that an output is correct, fair, unbiased, safe, or policy-compliant. Conformance to CooL is conformance to an *evidentiary* format, not a quality or safety certification.
 
-*An open standard by NorthWind Cipher Pvt Ltd. Specification version **v1**; this build is **v0.1.0**.*
+*An open standard by NorthWind Cipher (in incorporation). Specification version **v1**; this build is **v0.1.0**.*
 
 ---
 

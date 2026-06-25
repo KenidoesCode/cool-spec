@@ -4,6 +4,13 @@ All notable changes to the **cool-spec** standard are documented here. The forma
 follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and this project
 adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.1.1] — 2026-06-25
+
+### Changed
+- Attribution/NOTICE updated to reflect pre-incorporation status: "© 2026 Pranauv
+  Shrinaath S. · NorthWind Cipher (in incorporation)"; `CooL™` trademark pending. No
+  changes to the receipt format, schema, or verification flow.
+
 ## [0.1.0] — 2026-06-22
 
 First public freeze of the CooL standard.

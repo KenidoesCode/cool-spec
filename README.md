@@ -1,5 +1,7 @@
 # cool-spec — The CooL Standard
 
+_© 2026 Pranauv Shrinaath S. · CooL is a project of NorthWind Cipher (in incorporation) · CooL™ trademark pending._
+
 **CooL (Cryptographic Observability and On-chain Ledger)** is an independent,
 post-quantum, tamper-evident **evidentiary record of exactly what an AI system
 computed**: which model ran, on which input, producing which output, and when —
@@ -61,4 +63,4 @@ the verifier is release-blocking.
 
 ## Licence
 
-[Apache-2.0](LICENSE). © NorthWind Cipher Pvt Ltd.
+[Apache-2.0](LICENSE). © NorthWind Cipher (in incorporation).

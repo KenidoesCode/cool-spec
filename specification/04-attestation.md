@@ -7,7 +7,7 @@
 > **What this proves:** Nothing yet. When fully built, TEE attestation would prove that the computation ran inside a measured, genuine secure enclave whose code identity matches an expected measurement. In v0.1.0 it proves nothing — it is mock.
 > **What this does NOT prove:** Even when built, attestation would not prove that the output is correct, fair, unbiased, safe, or policy-compliant. It would only attest to the *execution environment*, not the *quality* of the result.
 
-*An open standard by NorthWind Cipher Pvt Ltd.*
+*An open standard by NorthWind Cipher (in incorporation).*
 
 ---
 

@@ -3,7 +3,7 @@
 > **What this proves:** That a specific computation occurred — which model ran, on which input, producing which output, and when — and that the resulting record could not have been forged or silently altered after the fact, using cryptography a third party can check offline.
 > **What this does NOT prove:** That the output is correct, accurate, fair, unbiased, safe, or compliant with any policy. CooL is an evidentiary record of *what was computed*, not a judgement of *whether the result was good*.
 
-*An open standard by NorthWind Cipher Pvt Ltd. This document describes build **v0.1.0**.*
+*An open standard by NorthWind Cipher (in incorporation). This document describes build **v0.1.0**.*
 
 ---
 

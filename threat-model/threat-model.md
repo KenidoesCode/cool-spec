@@ -3,7 +3,7 @@
 > **What this proves:** This document analyzes which CooL trust domain stops which adversary, given a receipt that exists. It is about defending the integrity of the *record of what was computed* — which model, input, output, and time — against forgery and silent alteration.
 > **What this does NOT prove:** This document does not claim CooL proves any output is correct, fair, unbiased, safe, or policy-compliant. CooL stops record-tampering adversaries; it does not adjudicate the quality of the underlying decision.
 
-*An open standard by NorthWind Cipher Pvt Ltd. This build is **v0.1.0**.*
+*An open standard by NorthWind Cipher (in incorporation). This build is **v0.1.0**.*
 
 ---
 

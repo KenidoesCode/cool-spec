@@ -3,7 +3,7 @@
 > **What this proves:** A profile defines what *kind* of computation a CooL record describes. A conformant record proves what was computed (which model, input, output, time) under that profile and that the record is unforged.
 > **What this does NOT prove:** No profile makes CooL prove that an output is correct, fair, unbiased, safe, or policy-compliant. Profiles shape the *evidence*, not a judgement of its quality.
 
-*An open standard by NorthWind Cipher Pvt Ltd. This build is **v0.1.0**.*
+*An open standard by NorthWind Cipher (in incorporation). This build is **v0.1.0**.*
 
 ---
 
