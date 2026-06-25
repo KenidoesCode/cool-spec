@@ -54,6 +54,16 @@ To be plain: **none of this is built.** There are no agent records, no trace cha
 
 Also **PLANNED and not implemented**: profiles intended to record the provenance of a model (e.g. how it was produced, what it derives from) and of datasets (e.g. training or evaluation corpora), again as salted commitments rather than plaintext. The intent would be to let an inference record reference a provenance record so a chain of custody from data to model to output could be assembled. **This design does not exist in v0.1.0.**
 
-## 5. Verifier note
+## 5. Exploratory profile drafts (PLANNED — not frozen, not implemented)
+
+Sketches of the planned profiles live under [`profiles/`](profiles/). They are **DRAFTs**
+to discuss shape only — decision-gated on whether agent receipts are CooL's wedge, and
+not implemented in any code:
+
+- [`profiles/cool.agent.v1.md`](profiles/cool.agent.v1.md) — per-step agent action chain/DAG
+- [`profiles/cool.model-provenance.v1.md`](profiles/cool.model-provenance.v1.md) — model lineage commitments
+- [`profiles/cool.dataset.v1.md`](profiles/cool.dataset.v1.md) — dataset content commitments (Merkle manifest)
+
+## 6. Verifier note
 
 A verifier MUST identify the profile from its schema id and apply the corresponding rules. In v0.1.0, only `cool.inference.v1` is defined and implemented; encountering any other profile id means the record was produced against an unimplemented (PLANNED) profile and MUST NOT be treated as conformant to this build.
